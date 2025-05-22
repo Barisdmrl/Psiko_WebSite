@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psikolojik Danışmanlık ve Terapi Merkezi</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Sayfa içeriğini yüklenirken gösterme -->
+    <style>
+        body {
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+        body.loaded {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Bölümü -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Ruh<span>Sağlığım</span></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#header" class="active">Ana Sayfa</a></li>
+                    <li><a href="#hizmetler">Hizmetlerimiz</a></li>
+                    <li><a href="#hakkimizda">Hakkımızda</a></li>
+                    <li><a href="#uzmanlar">Uzmanlarımız</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Bölümü -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animated-title">Profesyonel Psikolojik Danışmanlık</h1>
+                <p>Sağlıklı bir zihin, mutlu bir yaşam için sizinleyiz. Uzman kadromuzla psikolojik destek ve terapi hizmetleri sunuyoruz.</p>
+                <div class="cta-buttons">
+                    <a href="#randevu" class="btn btn-primary pulse-btn">Randevu Al</a>
+                    <a href="#hizmetler" class="btn btn-secondary">Hizmetlerimiz</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://placehold.co/800x600/EEF6FC/4F7CAC?text=Hero+Image" alt="Psikolojik danışmanlık">
+            </div>
+        </div>
+        <!-- Kaydırma Göstergesi -->
+        <div class="scroll-down">
+            <a href="#hizmetler">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Hizmetler Bölümü -->
+    <section id="hizmetler" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hizmetlerimiz</h2>
+                <p>Size özel olarak sunduğumuz psikolojik danışmanlık ve terapi hizmetlerimiz</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Bireysel Terapi</h3>
+                    <p>Kişisel sorunlarınızla başa çıkmanıza yardımcı olacak bireysel terapi seansları ile size özel çözümler sunuyoruz.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Çift Terapisi</h3>
+                    <p>İlişkinizi güçlendirmek, iletişim sorunlarını çözmek ve daha sağlıklı bir beraberlik için çift terapisi hizmetimiz.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Çocuk ve Ergen Terapisi</h3>
+                    <p>Çocukların ve ergenlerin gelişimsel süreçlerindeki zorlukları aşmalarına yardımcı olan özel terapi programımız.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Aile Danışmanlığı</h3>
+                    <p>Aile içi iletişimi güçlendirmek ve sorunları çözmek için uzman psikologlarımızla aile danışmanlığı.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Kaygı ve Depresyon</h3>
+                    <p>Kaygı bozuklukları ve depresyon tedavisi için bilimsel temelli yaklaşımlar ve terapi yöntemleri.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Kariyer Danışmanlığı</h3>
+                    <p>Kariyer planlaması, iş stresi ve iş-yaşam dengesi için profesyonel danışmanlık hizmeti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımızda Bölümü -->
+    <section id="hakkimizda" class="section bg-light">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://placehold.co/600x400/EEF6FC/4F7CAC?text=About+Image" alt="Kliniğimiz">
+                </div>
+                <div class="about-text">
+                    <h2>Hakkımızda</h2>
+                    <p>Ruh Sağlığım Psikolojik Danışmanlık Merkezi olarak, 2010 yılından bu yana insanların psikolojik sağlıklarını iyileştirmek ve hayat kalitelerini artırmak için hizmet veriyoruz.</p>
+                    <p>Merkezimizde bulunan uzman psikologlarımız, farklı alanlarda uzmanlaşmış olup, en güncel terapi yöntemlerini kullanarak danışanlarımıza destek olmaktadır.</p>
+                    <p>Misyonumuz, her bireyin kendi potansiyelini gerçekleştirebilmesi için ihtiyaç duyduğu psikolojik desteği sağlamaktır. Biz, her danışanımızın benzersiz olduğuna ve kişiye özel bir yaklaşımla daha etkili sonuçlar elde edilebileceğine inanıyoruz.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">13</span>
+                            <span class="stat-text">Yıllık Deneyim</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-text">Uzman Psikolog</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-text">Mutlu Danışan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Uzmanlar Bölümü -->
+    <section id="uzmanlar" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Uzman Ekibimiz</h2>
+                <p>Alanında uzmanlaşmış deneyimli psikologlarımız</p>
+            </div>
+            <div class="experts-grid">
+                <div class="expert-card">
+                    <div class="expert-image">
+                        <img src="https://placehold.co/400x400/EEF6FC/4F7CAC?text=Expert+1" alt="Uzman Psikolog">
+                    </div>
+                    <h3>Dr. Ayşe Yılmaz</h3>
+                    <p class="expert-title">Klinik Psikolog</p>
+                    <p class="expert-desc">Yetişkin terapisi ve travma konularında uzmanlaşmış, 15 yıllık deneyime sahip klinik psikolog.</p>
+                    <div class="expert-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="expert-image">
+                        <img src="https://placehold.co/400x400/EEF6FC/4F7CAC?text=Expert+2" alt="Uzman Psikolog">
+                    </div>
+                    <h3>Uzm. Psk. Mehmet Kaya</h3>
+                    <p class="expert-title">Çift ve Aile Terapisti</p>
+                    <p class="expert-desc">Çift terapisi ve aile danışmanlığı konularında uzmanlaşmış, 10 yıllık deneyime sahip psikolog.</p>
+                    <div class="expert-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="expert-card">
+                    <div class="expert-image">
+                        <img src="https://placehold.co/400x400/EEF6FC/4F7CAC?text=Expert+3" alt="Uzman Psikolog">
+                    </div>
+                    <h3>Dr. Zeynep Demir</h3>
+                    <p class="expert-title">Çocuk ve Ergen Psikoloğu</p>
+                    <p class="expert-desc">Çocuk gelişimi ve ergen terapisi alanında uzmanlaşmış, 12 yıllık deneyime sahip psikolog.</p>
+                    <div class="expert-social">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Randevu Bölümü -->
+    <section id="randevu" class="section bg-primary">
+        <div class="container">
+            <div class="appointment-content">
+                <div class="appointment-text">
+                    <h2>Randevu Alın</h2>
+                    <p>Size en uygun gün ve saatte uzmanlarımızdan biriyle görüşmek için hemen randevu alın.</p>
+                    <ul class="appointment-benefits">
+                        <li><i class="fas fa-check-circle"></i> Ücretsiz ilk görüşme</li>
+                        <li><i class="fas fa-check-circle"></i> Online terapi seçeneği</li>
+                        <li><i class="fas fa-check-circle"></i> Esnek çalışma saatleri</li>
+                        <li><i class="fas fa-check-circle"></i> Güvenli ve konforlu terapi ortamı</li>
+                    </ul>
+                </div>
+                <div class="appointment-form">
+                    <form id="appointmentForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Adınız Soyadınız" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-posta Adresiniz" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Telefon Numaranız" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Hizmet Seçiniz</option>
+                                <option value="bireysel">Bireysel Terapi</option>
+                                <option value="cift">Çift Terapisi</option>
+                                <option value="cocuk">Çocuk ve Ergen Terapisi</option>
+                                <option value="aile">Aile Danışmanlığı</option>
+                                <option value="kaygi">Kaygı ve Depresyon</option>
+                                <option value="kariyer">Kariyer Danışmanlığı</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Mesajınız (Opsiyonel)"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Randevu Al</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Bölümü -->
+    <section id="blog" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Blog</h2>
+                <p>Psikoloji dünyasından güncel yazılar ve bilgiler</p>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://placehold.co/800x500/EEF6FC/4F7CAC?text=Blog+1" alt="Blog yazısı">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">12 Mayıs 2023</div>
+                        <h3>Anksiyete ile Başa Çıkma Yöntemleri</h3>
+                        <p>Günlük hayatınızda anksiyete ile mücadele etmenize yardımcı olacak pratik yöntemler...</p>
+                        <a href="#" class="blog-link">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://placehold.co/800x500/EEF6FC/4F7CAC?text=Blog+2" alt="Blog yazısı">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">5 Mayıs 2023</div>
+                        <h3>Çocuklarda Özgüven Geliştirme</h3>
+                        <p>Çocuklarınızın sağlıklı bir özgüven geliştirmesine nasıl destek olabilirsiniz?</p>
+                        <a href="#" class="blog-link">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://placehold.co/800x500/EEF6FC/4F7CAC?text=Blog+3" alt="Blog yazısı">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">28 Nisan 2023</div>
+                        <h3>İlişkilerde Sağlıklı İletişim</h3>
+                        <p>İlişkilerinizde sağlıklı iletişim kurmanın yolları ve önemi hakkında bilgiler...</p>
+                        <a href="#" class="blog-link">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-button">
+                <a href="#" class="btn btn-outline">Tüm Yazıları Gör</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Bölümü -->
+    <section id="testimonials" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Danışan Yorumları</h2>
+                <p>Danışanlarımızın bizimle ilgili düşünceleri</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">Dr. Ayşe Hanım'la yaptığımız terapi seansları sayesinde kaygı problemlerimle başa çıkmayı öğrendim. Profesyonel yaklaşımı ve samimi desteği için çok teşekkür ederim.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="https://placehold.co/100x100/EEF6FC/4F7CAC?text=Avatar+1" alt="Danışan">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Selin K.</h4>
+                            <p>Danışan, 34 yaş</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">Mehmet Bey'in çift terapisindeki tecrübesi ve yönlendirmeleri sayesinde eşimle aramızdaki iletişim sorunlarını aşmayı başardık. Kendisine minnettarız.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="https://placehold.co/100x100/EEF6FC/4F7CAC?text=Avatar+2" alt="Danışan">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Ahmet ve Elif Y.</h4>
+                            <p>Çift Terapisi Danışanları</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">Oğlumun yaşadığı davranış problemleri için Zeynep Hanım'dan aldığımız destek paha biçilemez. Çocuğuma yaklaşımı ve uzmanlığı sayesinde büyük ilerleme kaydettik.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <img src="https://placehold.co/100x100/EEF6FC/4F7CAC?text=Avatar+3" alt="Danışan">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Deniz B.</h4>
+                            <p>Çocuk Danışanı Ebeveyni</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section id="iletisim" class="section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>İletişim</h2>
+                    <p>Herhangi bir sorunuz veya randevu talebiniz için bize ulaşabilirsiniz.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Adres</h3>
+                                <p>Atatürk Bulvarı No:123, Çankaya, Ankara</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Telefon</h3>
+                                <p>+90 (312) 123 45 67</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>E-posta</h3>
+                                <p>info@ruhsagligim.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Çalışma Saatleri</h3>
+                                <p>Pazartesi - Cumartesi: 09:00 - 18:00</p>
+                                <p>Pazar: Kapalı</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12238.579919767385!2d32.8464949!3d39.9255668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34f190a9cea8f%3A0xd3862ea8248d08a0!2zw4dhbmtheWEsIEFua2FyYQ!5e0!3m2!1str!2str!4v1651234567890!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Bölümü -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Ruh<span>Sağlığım</span></h2>
+                    <p>Profesyonel psikolojik danışmanlık ve terapi hizmetleri.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Hızlı Bağlantılar</h3>
+                    <ul>
+                        <li><a href="#header">Ana Sayfa</a></li>
+                        <li><a href="#hizmetler">Hizmetlerimiz</a></li>
+                        <li><a href="#hakkimizda">Hakkımızda</a></li>
+                        <li><a href="#uzmanlar">Uzmanlarımız</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#iletisim">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Hizmetlerimiz</h3>
+                    <ul>
+                        <li><a href="#">Bireysel Terapi</a></li>
+                        <li><a href="#">Çift Terapisi</a></li>
+                        <li><a href="#">Çocuk ve Ergen Terapisi</a></li>
+                        <li><a href="#">Aile Danışmanlığı</a></li>
+                        <li><a href="#">Kaygı ve Depresyon</a></li>
+                        <li><a href="#">Kariyer Danışmanlığı</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Bültenimize Abone Olun</h3>
+                    <p>Güncel yazılar ve duyurular için e-posta listemize kaydolun.</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="E-posta Adresiniz" required>
+                        <button type="submit" class="btn btn-primary">Abone Ol</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ruh Sağlığım Psikolojik Danışmanlık. Tüm hakları saklıdır.</p>
+                <div class="footer-legal">
+                    <a href="#">Gizlilik Politikası</a>
+                    <a href="#">Kullanım Koşulları</a>
+                    <a href="#">KVKK</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Sayfa tamamen yüklendiğinde gövdeyi göster
+        window.addEventListener('load', function() {
+            document.body.classList.add('loaded');
+        });
+    </script>
+</body>
+</html> 
